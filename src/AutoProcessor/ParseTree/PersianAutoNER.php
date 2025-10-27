@@ -15,35 +15,35 @@ class PersianAutoNER extends TreeAutoNER
     /**
      * @inheritDoc
      */
-    protected function autoDetectPerson(ParseTreeDrawable $parseTree)
+    protected function autoDetectPerson(ParseTreeDrawable $parseTree): void
     {
     }
 
     /**
      * @inheritDoc
      */
-    protected function autoDetectLocation(ParseTreeDrawable $parseTree)
+    protected function autoDetectLocation(ParseTreeDrawable $parseTree): void
     {
     }
 
     /**
      * @inheritDoc
      */
-    protected function autoDetectOrganization(ParseTreeDrawable $parseTree)
+    protected function autoDetectOrganization(ParseTreeDrawable $parseTree): void
     {
     }
 
     /**
      * @inheritDoc
      */
-    protected function autoDetectMoney(ParseTreeDrawable $parseTree)
+    protected function autoDetectMoney(ParseTreeDrawable $parseTree): void
     {
     }
 
     /**
      * @inheritDoc
      */
-    protected function autoDetectTime(ParseTreeDrawable $parseTree)
+    protected function autoDetectTime(ParseTreeDrawable $parseTree): void
     {
     }
 }
